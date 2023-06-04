@@ -1,1 +1,6 @@
-<h1 class="btn">hello</h1>
+<script>
+  import Router from "svelte-spa-router";
+  import routes from "./routes";
+</script>
+
+<Router {routes} />

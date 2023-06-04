@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "@types/ramda": "^0.29.2",
-    "ramda": "^0.29.0"
+    "ramda": "^0.29.0",
+    "svelte-spa-router": "^3.3.0"
   }
 }
