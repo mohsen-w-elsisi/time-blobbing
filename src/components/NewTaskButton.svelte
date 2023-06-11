@@ -2,7 +2,7 @@
   import TaskEditDialog from "./TaskEditDialog.svelte";
   import AddIcon from "./icons/AddIcon.svelte";
   import type { Task } from "../types";
-  import { addTask } from "../state";
+  import { addTask } from "../tasks";
 
   let newTaskModal: HTMLDialogElement;
 

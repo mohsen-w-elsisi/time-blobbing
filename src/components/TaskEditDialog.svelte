@@ -36,9 +36,9 @@
       bind:value={task.duration}
     />
 
-    <div class="modal-action">
-      <button class="btn btn-ghost" on:click|preventDefault={closeModal}>cancel</button>
+    <div class="modal-action flex-row-reverse justify-start">
       <button class="btn">{buttonText}</button>
+      <button class="btn btn-ghost" on:click|preventDefault={closeModal}>cancel</button>
     </div>
   </form>
 </dialog>

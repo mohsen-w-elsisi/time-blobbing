@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { editTask, removeTask } from "../state";
+  import { editTask, removeTask } from "../tasks";
   import type { Task } from "../types";
   import TaskEditDialog from "./TaskEditDialog.svelte";
 
