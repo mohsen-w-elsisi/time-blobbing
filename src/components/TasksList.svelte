@@ -7,7 +7,7 @@
 
 {#if $thereAreTasks}
   <main class="p-3 sm:px-6 gap-3 flex flex-col">
-    {#each $tasks as task, index}
+    {#each $tasks as task, index (index)}
       <TaskTile {task} {index} />
     {/each}
   </main>

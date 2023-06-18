@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { scale } from "svelte/transition";
   import { editTask, removeTask } from "../tasks";
   import type { Task } from "../types";
   import TaskEditDialog from "./TaskEditDialog.svelte";
@@ -22,7 +23,7 @@
   }
 </script>
 
-<article class="card card-compact bg-base-200 drop-shadow-lg">
+<article class="card card-compact bg-base-200 drop-shadow-lg" in:scale>
   <div class="card-body">
     <h2 class="card-title">{task.title}</h2>
     <p>{task.duration} minutes</p>
